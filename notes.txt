@@ -1,0 +1,49 @@
+OBJECT ORIENTED PROGRAMMING:
+To map with real world scenario
+
+- From procedural programming (code line by line)
+- Through functional programming - to reduce redundancy and increase reusibility using functions
+- To Object Oriented Programming - resusibility using objects and classes
+
+OBJECT:
+Any entity of real world
+
+CLASS:
+Blueprint (info required of an entity e.g. student) for creating an object
+is a collection of methods and attributes
+
+CONSTRUCTORS:
+__init__ function => special function in every class
+invoked whenever an object is created
+constructor always need "self" parameter => self = object itself => reference of object => could be named anything but self is standard
+constructors are for object initialization => to create new attributes 
+Two types of Constructors:
+1. Default Constructor => having no parameters except self
+2. Parametrized Constructor => has parameters
+
+ATTRIBUTES:
+data of an object e.g. name, color etc
+
+Two types of Attributes:
+1. Class attributes => for all objects of a class => college_name same for every student of that college => stored in memory only once
+2. Object attributes => object specific => e.g. name different for each instance => self.name etc
+
+if a class attribute and an object attribute are of same names then object attribute will be preferred
+
+METHODS:
+functions that belong to objects
+takes 'self' parameter
+
+STATIC METHODS:
+simple methods doesn't work without self
+Methods that don't use self parameter (works at class level => doesn't need object to run)
+uses decorators => @staticmethod
+A decorator takes a function, changes its behaviour and returns it
+
+Four pillars of OOP: 
+ABSTRACTION:
+Hiding the implementation details of a class and only showing the essential features to the user
+
+ENCAPSULATION:
+Wrapping data and functions into a single unit (object)
+creation of class having attributes and functions
