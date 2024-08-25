@@ -47,3 +47,22 @@ Hiding the implementation details of a class and only showing the essential feat
 ENCAPSULATION:
 Wrapping data and functions into a single unit (object)
 creation of class having attributes and functions
+
+DEL keyword:
+used to delete obect properties or object itself
+
+Private attributes and methods:
+meant to be used only within the class and are not accessible from outside the class
+can only be accessed using public method
+method or attribute can be made private using double underscores e.g. acc => __acc
+
+INHERITANCE:
+When one class (child/derived) derives the properties and methods of another class (parent/base)
+
+Types of inheritance:
+1. SINGLE INHERITANCE => single base class and single derived class
+2. MULTI-LEVEL INHERITANCE => A parent class having a child class, and child now behaving as a parent having further child class so that the third class has properties inherited from both first and second classes
+3. MULTIPLE LEVEL INHERITANCE => A class inheriting from multiple parent classes
+
+
+
