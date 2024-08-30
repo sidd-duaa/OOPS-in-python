@@ -39,6 +39,8 @@ simple methods doesn't work without self
 Methods that don't use self parameter (works at class level => doesn't need object to run)
 uses decorators => @staticmethod
 A decorator takes a function, changes its behaviour and returns it
+common for every object and created only once
+can't access or modify class state
 
 Four pillars of OOP: 
 ABSTRACTION:
@@ -63,6 +65,33 @@ Types of inheritance:
 1. SINGLE INHERITANCE => single base class and single derived class
 2. MULTI-LEVEL INHERITANCE => A parent class having a child class, and child now behaving as a parent having further child class so that the third class has properties inherited from both first and second classes
 3. MULTIPLE LEVEL INHERITANCE => A class inheriting from multiple parent classes
+
+SUPER method:
+used to access methods of the parent class
+
+CLASS method:
+used to access the class attribute => __class__.attribute
+or
+@class method
+
+Three types of methods:
+1. Static methods => doesn't access any class or obj attribute
+2. Class methods => used to access class attribute => cls
+3. Instance methods => access object attribute => self
+
+PROPERTY decorator:
+When an attribute's value isn't fixed and depends on other attribute's values
+used to use any method as a property
+@property
+
+POLYMORPHISM:
+Poly => many
+morph => forms
+When the same operator is allowed to have different meaning according to the context - Operator Overloading
+Dunder functions => to create logic of any operator for our own class => __add__
+
+@getter
+@setter
 
 
 
